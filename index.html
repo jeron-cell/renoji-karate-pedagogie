@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Renoji Karaté – Pédagogie</title>
+<meta name="description" content="Ressources pédagogiques de karaté Shotokan : kihon, kumite, kata et programmes par ceinture.">
+<style>
+  :root {
+    --bg: #fafaf8;
+    --fg: #1c1c1c;
+    --muted: #5f5f5f;
+    --accent: #b3202a;
+    --card: #ffffff;
+    --border: #e2e2dc;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--fg);
+    line-height: 1.6;
+  }
+  header {
+    background: var(--fg);
+    color: #fff;
+    padding: 1rem 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: .75rem;
+  }
+  header .logo { font-weight: 700; font-size: 1.15rem; letter-spacing: .02em; }
+  header .logo span { color: var(--accent); }
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 1.1rem;
+    font-size: .95rem;
+  }
+  nav a:hover { text-decoration: underline; }
+  .hero {
+    padding: 3.5rem 1.5rem 2.5rem;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  .hero h1 { font-size: 2.2rem; margin: 0 0 .75rem; }
+  .hero p { color: var(--muted); max-width: 640px; margin: 0; }
+  main { max-width: 960px; margin: 0 auto; padding: 0 1.5rem 3rem; }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1rem;
+    margin-top: 1.5rem;
+  }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-top: 4px solid var(--accent);
+    border-radius: 6px;
+    padding: 1.1rem 1.2rem;
+    text-decoration: none;
+    color: inherit;
+    display: block;
+  }
+  .card:hover { box-shadow: 0 2px 10px rgba(0,0,0,.08); }
+  .card h2 { font-size: 1.1rem; margin: 0 0 .4rem; }
+  .card p { margin: 0; color: var(--muted); font-size: .93rem; }
+  h2.section { margin-top: 2.5rem; font-size: 1.3rem; }
+  .belts { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: .75rem; }
+  .belt {
+    padding: .3rem .8rem;
+    border-radius: 999px;
+    border: 1px solid var(--border);
+    font-size: .88rem;
+    background: #fff;
+  }
+  .b-blanche { border-left: 10px solid #f2f2f2; }
+  .b-jaune   { border-left: 10px solid #f2d230; }
+  .b-orange  { border-left: 10px solid #f08a24; }
+  .b-verte   { border-left: 10px solid #3f9a3f; }
+  .b-bleue   { border-left: 10px solid #2f6fc4; }
+  .b-violette{ border-left: 10px solid #7a3fa0; }
+  .b-marron  { border-left: 10px solid #7a4a25; }
+  .b-noire   { border-left: 10px solid #111; }
+  footer {
+    border-top: 1px solid var(--border);
+    color: var(--muted);
+    font-size: .85rem;
+    text-align: center;
+    padding: 1.5rem;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">Renoji <span>Karaté</span> · Pédagogie</div>
+  <nav>
+    <a href="index.html">Accueil</a>
+    <a href="ceintures.html">Ceintures</a>
+    <a href="kihon.html">Kihon</a>
+    <a href="kumite.html">Kumite</a>
+    <a href="kata.html">Kata</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Ressources pédagogiques de karaté Shotokan</h1>
+  <p>Programmes par ceinture, techniques de base, formes de combat conventionnel et katas, pour accompagner la progression de la ceinture blanche à la ceinture noire.</p>
+</section>
+
+<main>
+  <div class="grid">
+    <a class="card" href="ceintures.html">
+      <h2>Programmes par ceinture</h2>
+      <p>Contenu technique attendu à chaque grade.</p>
+    </a>
+    <a class="card" href="kihon.html">
+      <h2>Kihon</h2>
+      <p>Positions, déplacements, défenses, poings, percussions et coups de pied.</p>
+    </a>
+    <a class="card" href="kumite.html">
+      <h2>Kumite</h2>
+      <p>Sanbon, ippon, jiyu-ippon, sen no sen et changements de posture.</p>
+    </a>
+    <a class="card" href="kata.html">
+      <h2>Kata</h2>
+      <p>Heian, Tekki et katas supérieurs, avec points d'attention.</p>
+    </a>
+  </div>
+
+  <h2 class="section">Progression des ceintures</h2>
+  <div class="belts">
+    <span class="belt b-blanche">Blanche</span>
+    <span class="belt b-jaune">Jaune</span>
+    <span class="belt b-orange">Orange</span>
+    <span class="belt b-verte">Verte</span>
+    <span class="belt b-bleue">Bleue</span>
+    <span class="belt b-violette">Violette</span>
+    <span class="belt b-marron">Marron</span>
+    <span class="belt b-noire">Noire</span>
+  </div>
+</main>
+
+<footer>
+  &copy; <script>document.write(new Date().getFullYear())</script> Renoji Karaté · Pédagogie
+</footer>
+
+</body>
+</html>
